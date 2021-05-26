@@ -1,0 +1,65 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments TPS62133RGTR
+#
+DEF TPS62133RGTR U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "TPS62133RGTR" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-TPS62133RGTR-*" 0 400 50 H I L CNN 
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TPS62133&fileType=pdf" 0 500 50 H I L CNN 
+F4 "MO-220" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Package Specification" 0 700 50 H I L CNN "Component Link 2 Description"
+F6 "http://www.ti.com/litv/pdf/mpqf119g" 0 800 50 H I L CNN "Component Link 2 URL"
+F7 "URL Link1" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "Samples URL:http://www.ti.com/product/tps62133#samples" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "SLVSAG7" 0 1100 50 H I L CNN "Datasheet Version"
+F10 "100" 0 1200 50 H I L CNN "Duty CycleMax"
+F11 "3" 0 1300 50 H I L CNN "Iout Max A"
+F12 "0.017" 0 1400 50 H I L CNN "Iq Typm A"
+F13 "Surface Mount" 0 1500 50 H I L CNN "Mounting Technology"
+F14 "16-Pin Plastic Quad Flat No-Lead, 3 x 3 mm Body, 0.5 mm Pitch, 1.7 x 1.7 mm Exposed Pad" 0 1600 50 H I L CNN "Package Description"
+F15 "revH, Oct-2011" 0 1700 50 H I L CNN "Package Version"
+F16 "5" 0 1800 50 H I L CNN "Preset VoutV"
+F17 "Catalog" 0 1900 50 H I L CNN "Rating"
+F18 "1" 0 2000 50 H I L CNN "Regulated Outputs"
+F19 "Step-Down Regulator" 0 2100 50 H I L CNN "Sub Family"
+F20 "4.2" 0 2200 50 H I L CNN "Switch Current LimitTypA"
+F21 "true" 0 2300 50 H I L CNN "Synchronous Rectification"
+F22 "Buck" 0 2400 50 H I L CNN "Topology"
+F23 "17" 0 2500 50 H I L CNN "Vin Max V"
+F24 "3" 0 2600 50 H I L CNN "Vin Min V"
+F25 "5" 0 2700 50 H I L CNN "Vout Max V"
+F26 "5" 0 2800 50 H I L CNN "Vout Min V"
+F27 "IC" 0 2900 50 H I L CNN "category"
+F28 "1489568" 0 3000 50 H I L CNN "ciiva ids"
+F29 "4448c7d54b95d140" 0 3100 50 H I L CNN "library id"
+F30 "Texas Instruments" 0 3200 50 H I L CNN "manufacturer"
+F31 "RGT0016C" 0 3300 50 H I L CNN "package"
+F32 "1464593309" 0 3400 50 H I L CNN "release date"
+F33 "Yes" 0 3500 50 H I L CNN "rohs"
+F34 "015DBBDD-3397-4736-845A-37AE7F95FDEE" 0 3600 50 H I L CNN "vault revision"
+F35 "yes" 0 3700 50 H I L CNN "imported"
+DRAW
+X SW 1 1100 0 100 L 40 40 1 1 W 
+X SW 2 1100 -100 100 L 40 40 1 1 W 
+X SW 3 1100 -200 100 L 40 40 1 1 W 
+X PG 4 1100 -600 100 L 40 40 1 1 U 
+X FB 5 1100 -800 100 L 40 40 1 1 I 
+X AGND 6 1100 -1100 100 L 40 40 1 1 W 
+X FSW 7 100 -1300 100 R 40 40 1 1 I 
+X DEF 8 100 -1200 100 R 40 40 1 1 I 
+X SS/TR 9 100 -600 100 R 40 40 1 1 I 
+X AVIN 10 100 -200 100 R 40 40 1 1 W 
+X PVIN 11 100 0 100 R 40 40 1 1 W 
+X PVIN 12 100 -100 100 R 40 40 1 1 W 
+X EN 13 100 -400 100 R 40 40 1 1 I 
+X VOS 14 1100 -400 100 L 40 40 1 1 I 
+X PGND 15 1100 -1200 100 L 40 40 1 1 W 
+X PGND 16 1100 -1300 100 L 40 40 1 1 W 
+X EP 17 1100 -1000 100 L 40 40 1 1 W 
+S 200 100 1000 -1400 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

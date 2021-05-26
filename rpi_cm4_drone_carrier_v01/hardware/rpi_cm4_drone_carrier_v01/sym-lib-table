@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/CM4IO/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "JST_SM06B")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/JST_SM06B/JST_SM06B.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G07DCKR")(type "Legacy")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/Texas Instruments SN74LVC1G07DCKR/SN74LVC1G07DCKR.lib")(options "")(descr ""))
+  (lib (name "Molex_5046_2pin")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/Molex_5046_2pin/molex_5046_2pin.kicad_sym")(options "")(descr ""))
+  (lib (name "USB_C")(type "Legacy")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/USB_C/eec.lib")(options "")(descr ""))
+  (lib (name "TPS62133")(type "Legacy")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/TPS62133/TPS62133.lib")(options "")(descr ""))
+  (lib (name "MIC5019YFT-TR")(type "Legacy")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/KiCad/5.99/projects/cm4_cb_drone/rpi_cm4_drone_carrier_v01/hardware/libraries/MIC5019YFT-TR/MIC5019YFT-TR.lib")(options "")(descr ""))
+  (lib (name "Trans_Infineon_IPD50N03S2L06ATMA1")(type "Legacy")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/KiCad/5.99/projects/cm4_cb_drone/rpi_cm4_drone_carrier_v01/hardware/libraries/Trans_Infineon_IPD50N03S2L06ATMA1/Trans_Infineon_IPD50N03S2L06ATMA1.lib")(options "")(descr ""))
+  (lib (name "105017-1001")(type "Legacy")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/KiCad/5.99/projects/cm4_cb_drone/rpi_cm4_drone_carrier_v01/hardware/libraries/Molex_105017_microUSB/105017-1001.lib")(options "")(descr ""))
+)

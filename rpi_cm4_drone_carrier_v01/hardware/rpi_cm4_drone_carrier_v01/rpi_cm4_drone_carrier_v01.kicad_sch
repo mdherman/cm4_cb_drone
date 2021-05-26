@@ -1,0 +1,201 @@
+(kicad_sch (version 20210126) (generator eeschema)
+
+  (paper "A4")
+
+  (title_block
+    (title "Raspberry Pi CM4 Carrier Board for Drone with Pixhawk")
+    (date "2020-10-31")
+    (rev "v01")
+    (company "Universitetet i Agder")
+    (comment 2 "creativecommons.org/licenses/by-sa/4.0")
+    (comment 3 "License: CC BY 4.0")
+    (comment 4 "Author: Martin Dahlseng Hermansen")
+    (comment 6 "This is based on Shawn Hymels RPI CM4 Carrier Board Template")
+    (comment 7 "Link to Shawn Hymels GIT: ")
+    (comment 8 "https://github.com/ShawnHymel/rpi-cm4-carrier-template")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 101.6 50.8) (size 38.1 38.1)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid fc4c71a5-1008-4ac4-98db-57c838c57d91)
+    (property "Sheet name" "CM4 GPIO" (id 0) (at 101.6 50.1645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cm4-gpio.kicad_sch" (id 1) (at 101.6 89.4085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 101.6 101.6) (size 38.1 38.1)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid caa71f4c-454d-4ac9-b287-456eafb34991)
+    (property "Sheet name" "CM4 High Speed" (id 0) (at 101.6 100.9645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cm4-high-speed.kicad_sch" (id 1) (at 101.6 140.2085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/" (page "3"))
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/087a679c-98b4-4c0f-b00d-be493c51e1e6"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0eadcddd-84c3-407e-bfee-39fe5ddf1f06"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0d6baefa-bbe3-48f6-bc79-0534751968f9"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/29c5ac8e-a096-4cd0-8d54-9e9834a722fa"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/d3d6268f-938f-4078-bba3-585dd739c4e1"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/230650eb-8852-4c76-b63c-12ec79910b81"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/63cb135c-2d6d-4d89-8322-b82722fb08d9"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/2bd2d97f-5d51-4680-a167-577b2a405d37"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/31551326-27c6-4bba-a0c0-abe772948a8c"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/2eec5702-543d-44c0-98a3-f3d2be149f29"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f860194f-1ba8-4372-9972-55bd47d09951"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/1639b97f-8d24-4279-b045-9f65ade69514"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/5341e7b5-48b2-4385-849e-98023a0ed174"
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/d130a33e-2c0a-4162-8e76-a55d2115b278"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0118c793-05e6-4bca-93ca-f23754eee019"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/dd2c6042-06eb-4f1b-b3a5-b8327d46ba25"
+      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/b51f71ab-e27b-49ba-b71d-779071115f05"
+      (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/a8e79a68-c5d2-4f7e-a126-ee8e677befc3"
+      (reference "C3") (unit 1) (value "3.3nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6337d42b-ada3-45cb-a47f-b8083149bf17"
+      (reference "C4") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/1abaec93-deda-4397-b283-a92e165b2d1f"
+      (reference "C5") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/508c23b4-64ed-4e0e-afe7-d71b9734cc0f"
+      (reference "D1") (unit 1) (value "LED Green") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/021ed161-02ba-4490-a6de-541b75548766"
+      (reference "D2") (unit 1) (value "LED Red") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/8968d9c4-8277-4417-bb9e-f991de289aae"
+      (reference "J2") (unit 1) (value "GPIO") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/7e88b120-76df-4d09-b239-597c2dc5656f"
+      (reference "J3") (unit 1) (value "JST_SM06B") (footprint "JST_SM06B:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6df18258-4854-45cb-9204-070633f68dc6"
+      (reference "J5") (unit 1) (value "TPS62133RGTR") (footprint "TPS62133:Texas_Instruments-TPS62133RGTR-Manufacturer_Recommended")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9e3e5b99-e56a-4382-a022-f82affa20263"
+      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/8e50077f-5391-4084-abfa-18ddfac42566"
+      (reference "L1") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/463d59ed-ef45-4402-9140-190527b0aff8"
+      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/2eb3a9a5-2f0c-4c0f-9076-c718a3b7cd40"
+      (reference "Q1") (unit 1) (value "IPD50N03S2L06ATMA1") (footprint "Trans_Infineon_IPD50N03S2L06ATMA1:Trans_Infineon_IPD50N03S2L06ATMA1")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/381f4b4d-c107-447e-b675-44c1966cbacf"
+      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/ec9a15f8-9e0c-48bd-9c8b-05e6a991f851"
+      (reference "R2") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/2fc6e6f4-b174-4257-8c7d-30f8cc2505fa"
+      (reference "R5") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/a2258271-2d01-4152-aa07-d6e81adada40"
+      (reference "R6") (unit 1) (value "261K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/d3dc53c9-19de-418f-b594-c812cef7d789"
+      (reference "R7") (unit 1) (value "51K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/fe5eae5c-3ec3-4bd7-9abb-c8c379e19201"
+      (reference "R8") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/814ca5de-4660-4553-aa6a-ff4fa159fcc9"
+      (reference "R9") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/3173c809-720c-44f9-b734-729a0f62263f"
+      (reference "SW1") (unit 1) (value "SW_DIP_x01") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0813e12d-479f-4e65-9a4f-40a56b6eec93"
+      (reference "U1") (unit 1) (value "SN74LVC1G07DCKR") (footprint "Texas Instruments SN74LVC1G07DCKR:SOT65P210X110-5N")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/041d4b2a-0fda-447b-904c-163346237c7e"
+      (reference "U3") (unit 1) (value "MIC5019YFT-TR") (footprint "MIC5019YFT-TR:MIC5019YFT-TR")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/53f00cdd-c025-4527-b4e5-48b6e6c73df2"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/21e9ad59-8733-4cb6-929b-aff6e4b2f729"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/81f0d702-912e-410d-83f3-c9f3bd3f7f28"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/0d0caf91-4ece-48ed-a178-43a8b49f3526"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/6fa3551a-d037-4f0f-aa9d-be2f967ac108"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/5d29d2fd-e2b1-4f7e-8bf4-d1d0ec661eb4"
+      (reference "J1") (unit 1) (value "105017-1001") (footprint "Molex_105017_microUSB:MOLEX_105017-1001")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/fafda8be-1326-444e-bcc1-8cb4aded3240"
+      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/797d5fac-3280-4822-a9c4-ad10ea0bd9de"
+      (reference "R3") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/13282cb4-2a4b-40de-a153-617bda08653f"
+      (reference "R4") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/056fee71-df50-49dc-9527-9d9826d265c7"
+      (reference "U2") (unit 1) (value "TPD2EUSB30") (footprint "Package_TO_SOT_SMD:Texas_DRT-3")
+    )
+  )
+)

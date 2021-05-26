@@ -1,0 +1,9 @@
+Info: Output directory "C:\Users\Martin\OneDrive - Universitetet i Agder\Documents\KiCad\Universitetet i Agder\Team site - Documents\General\Media\Kretskort" created.
+
+Exported "C:\Users\Martin\OneDrive - Universitetet i Agder\Documents\KiCad\Universitetet i Agder\Team site - Documents\General\Media\Kretskort\rpi_cm4_drone_carrier_v01-brd.svg".
+Exported "C:\Users\Martin\OneDrive - Universitetet i Agder\Documents\KiCad\Universitetet i Agder\Team site - Documents\General\Media\Kretskort\rpi_cm4_drone_carrier_v01-brd.svg".
+Exported "C:\Users\Martin\OneDrive - Universitetet i Agder\Documents\KiCad\Universitetet i Agder\Team site - Documents\General\Media\Kretskort\rpi_cm4_drone_carrier_v01-brd.svg".
+Exported "C:\Users\Martin\OneDrive - Universitetet i Agder\Documents\KiCad\Universitetet i Agder\Team site - Documents\General\Media\Kretskort\rpi_cm4_drone_carrier_v01-brd.svg".
+Exported "C:\Users\Martin\OneDrive - Universitetet i Agder\Documents\KiCad\Universitetet i Agder\Team site - Documents\General\Media\Kretskort\rpi_cm4_drone_carrier_v01-brd.svg".
+Exported "C:\Users\Martin\OneDrive - Universitetet i Agder\Documents\KiCad\Universitetet i Agder\Team site - Documents\General\Media\Kretskort\rpi_cm4_drone_carrier_v01-brd.svg".
+Exported "C:\Users\Martin\OneDrive - Universitetet i Agder\Documents\KiCad\Universitetet i Agder\Team site - Documents\General\Media\Kretskort\rpi_cm4_drone_carrier_v01-brd.svg".

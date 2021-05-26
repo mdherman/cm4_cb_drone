@@ -1,0 +1,130 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Molex 1054500101
+#
+DEF 1054500101 J 0 0 Y Y 3 L N
+F0 "J" 0 300 50 H V L CNN 
+F1 "1054500101" 0 400 50 H V L CNN 
+F2 "Molex-1054500101-*" 0 500 50 H I L CNN 
+F3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1054500101_IO_CONNECTORS.pdf" 0 600 50 H I L CNN 
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Conn" 0 800 50 H I L CNN "category"
+F6 "Gold,Nickel" 0 900 50 H I L CNN "contact material"
+F7 "0.25/1.25/5A" 0 1000 50 H I L CNN "current rating"
+F8 "USB - C USB 3.1, Superspeed+ Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole" 0 1100 50 H I L CNN "description"
+F9 "Connectors" 0 1200 50 H I L CNN "device class L1"
+F10 "USB Connectors" 0 1300 50 H I L CNN "device class L2"
+F11 "unset" 0 1400 50 H I L CNN "device class L3"
+F12 "CONN RCP USB3.1 TYPEC 24P SMD RA" 0 1500 50 H I L CNN "digikey description"
+F13 "WM12856CT-ND" 0 1600 50 H I L CNN "digikey part number"
+F14 "https://www.molex.com/pdm_docs/sd/1054500101_sd.pdf" 0 1700 50 H I L CNN "footprint url"
+F15 "3.44mm" 0 1800 50 H I L CNN "height"
+F16 "yes" 0 1900 50 H I L CNN "is connector"
+F17 "yes" 0 2000 50 H I L CNN "is female"
+F18 "Yes" 0 2100 50 H I L CNN "lead free"
+F19 "bcb224af38ee0ef5" 0 2200 50 H I L CNN "library id"
+F20 "Molex" 0 2300 50 H I L CNN "manufacturer"
+F21 "USB Shielded I/O Receptacle; Type C; Right Angle; Surface Mount; Gold over Nickel" 0 2400 50 H I L CNN "mouser description"
+F22 "538-105450-0101" 0 2500 50 H I L CNN "mouser part number"
+F23 "24" 0 2600 50 H I L CNN "number of contacts"
+F24 "CONN_SMT_8MM94_7MM9_USB" 0 2700 50 H I L CNN "package"
+F25 "0.5mm" 0 2800 50 H I L CNN "pitch"
+F26 "Yes" 0 2900 50 H I L CNN "rohs"
+F27 "true" 0 3000 50 H I L CNN "shielding"
+F28 "+85°C" 0 3100 50 H I L CNN "temperature range high"
+F29 "-30°C" 0 3200 50 H I L CNN "temperature range low"
+F30 "USB 3.1" 0 3300 50 H I L CNN "usb standard"
+F31 "30V" 0 3400 50 H I L CNN "voltage rating"
+DRAW
+X GND A1 -100 0 100 L 40 40 1 1 P 
+X TX1+ A2 -100 -200 100 L 40 40 1 1 P 
+X TX1- A3 -100 -400 100 L 40 40 1 1 P 
+X VBUS A4 -100 -600 100 L 40 40 1 1 P 
+X CC1 A5 -100 -800 100 L 40 40 1 1 P 
+X D+ A6 -100 -1000 100 L 40 40 1 1 P 
+X D- A7 -100 -1200 100 L 40 40 1 1 P 
+X SBU1 A8 -100 -1400 100 L 40 40 1 1 P 
+X VBUS A9 -100 -1600 100 L 40 40 1 1 P 
+X RX2- A10 -100 -1800 100 L 40 40 1 1 P 
+X RX2+ A11 -100 -2000 100 L 40 40 1 1 P 
+X GND A12 -100 -2200 100 L 40 40 1 1 P 
+S -600 200 -200 -2400 1 1 0 f
+C -400 0 30 1 1 0 N
+P 2 1 1 0 -370 0 -200 0 N
+C -400 -200 30 1 1 0 N
+P 2 1 1 0 -370 -200 -200 -200 N
+C -400 -400 30 1 1 0 N
+P 2 1 1 0 -370 -400 -200 -400 N
+C -400 -600 30 1 1 0 N
+P 2 1 1 0 -370 -600 -200 -600 N
+C -400 -800 30 1 1 0 N
+P 2 1 1 0 -370 -800 -200 -800 N
+C -400 -1000 30 1 1 0 N
+P 2 1 1 0 -370 -1000 -200 -1000 N
+C -400 -1200 30 1 1 0 N
+P 2 1 1 0 -370 -1200 -200 -1200 N
+C -400 -1400 30 1 1 0 N
+P 2 1 1 0 -370 -1400 -200 -1400 N
+C -400 -1600 30 1 1 0 N
+P 2 1 1 0 -370 -1600 -200 -1600 N
+C -400 -1800 30 1 1 0 N
+P 2 1 1 0 -370 -1800 -200 -1800 N
+C -400 -2000 30 1 1 0 N
+P 2 1 1 0 -370 -2000 -200 -2000 N
+C -400 -2200 30 1 1 0 N
+P 2 1 1 0 -370 -2200 -200 -2200 N
+X GND B1 -100 0 100 L 40 40 2 1 P 
+X TX2+ B2 -100 -200 100 L 40 40 2 1 P 
+X TX2- B3 -100 -400 100 L 40 40 2 1 P 
+X VBUS B4 -100 -600 100 L 40 40 2 1 P 
+X CC2 B5 -100 -800 100 L 40 40 2 1 P 
+X D+ B6 -100 -1000 100 L 40 40 2 1 P 
+X D- B7 -100 -1200 100 L 40 40 2 1 P 
+X SBU2 B8 -100 -1400 100 L 40 40 2 1 P 
+X VBUS B9 -100 -1600 100 L 40 40 2 1 P 
+X RX1- B10 -100 -1800 100 L 40 40 2 1 P 
+X RX1+ B11 -100 -2000 100 L 40 40 2 1 P 
+X GND B12 -100 -2200 100 L 40 40 2 1 P 
+S -600 200 -200 -2400 2 1 0 f
+C -400 0 30 2 1 0 N
+P 2 2 1 0 -370 0 -200 0 N
+C -400 -200 30 2 1 0 N
+P 2 2 1 0 -370 -200 -200 -200 N
+C -400 -400 30 2 1 0 N
+P 2 2 1 0 -370 -400 -200 -400 N
+C -400 -600 30 2 1 0 N
+P 2 2 1 0 -370 -600 -200 -600 N
+C -400 -800 30 2 1 0 N
+P 2 2 1 0 -370 -800 -200 -800 N
+C -400 -1000 30 2 1 0 N
+P 2 2 1 0 -370 -1000 -200 -1000 N
+C -400 -1200 30 2 1 0 N
+P 2 2 1 0 -370 -1200 -200 -1200 N
+C -400 -1400 30 2 1 0 N
+P 2 2 1 0 -370 -1400 -200 -1400 N
+C -400 -1600 30 2 1 0 N
+P 2 2 1 0 -370 -1600 -200 -1600 N
+C -400 -1800 30 2 1 0 N
+P 2 2 1 0 -370 -1800 -200 -1800 N
+C -400 -2000 30 2 1 0 N
+P 2 2 1 0 -370 -2000 -200 -2000 N
+C -400 -2200 30 2 1 0 N
+P 2 2 1 0 -370 -2200 -200 -2200 N
+X MNT_1 1 -100 0 100 L 40 40 3 1 P 
+X MNT_2 2 -100 -200 100 L 40 40 3 1 P 
+X MNT_3 3 -100 -400 100 L 40 40 3 1 P 
+X MNT_4 4 -100 -600 100 L 40 40 3 1 P 
+S -700 200 -200 -800 3 1 0 f
+C -450 0 30 3 1 0 N
+P 2 3 1 0 -420 0 -200 0 N
+C -450 -200 30 3 1 0 N
+P 2 3 1 0 -420 -200 -200 -200 N
+C -450 -400 30 3 1 0 N
+P 2 3 1 0 -420 -400 -200 -400 N
+C -450 -600 30 3 1 0 N
+P 2 3 1 0 -420 -600 -200 -600 N
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,80 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Infineon IPD50N03S2L06ATMA1
+#
+DEF IPD50N03S2L06ATMA1 Q 0 40 Y Y 1 L N
+F0 "Q" 0 300 50 H V L CNN 
+F1 "IPD50N03S2L06ATMA1" 0 400 50 H V L CNN 
+F2 "Infineon-PG-TO252-3-0-11-*" 0 500 50 H I L CNN 
+F3 "https://www.infineon.com/dgdl/Infineon-IPD50N03S2L_06-DS-v01_00-en.pdf?fileId=db3a304412b407950112b4270cfc3b6e" 0 600 50 H I L CNN 
+F4 "Yes" 0 700 50 H I L CNN "automotive"
+F5 "Grade 0" 0 800 50 H I L CNN "automotive grade"
+F6 "Trans" 0 900 50 H I L CNN "category"
+F7 "50A" 0 1000 50 H I L CNN "continuous drain current"
+F8 "False" 0 1100 50 H I L CNN "depletion mode"
+F9 "Discrete Semiconductors" 0 1200 50 H I L CNN "device class L1"
+F10 "Transistors" 0 1300 50 H I L CNN "device class L2"
+F11 "MOSFETs" 0 1400 50 H I L CNN "device class L3"
+F12 "MOSFET N-CH 30V 50A TO252-3" 0 1500 50 H I L CNN "digikey description"
+F13 "IPD50N03S2L06ATMA1CT-ND" 0 1600 50 H I L CNN "digikey part number"
+F14 "30V" 0 1700 50 H I L CNN "drain to source breakdown voltage"
+F15 "5.1mΩ" 0 1800 50 H I L CNN "drain to source resistance"
+F16 "30V" 0 1900 50 H I L CNN "drain to source voltage"
+F17 "https://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-11/" 0 2000 50 H I L CNN "footprint url"
+F18 "50nC @ 10V" 0 2100 50 H I L CNN "gate charge at vgs"
+F19 "20V" 0 2200 50 H I L CNN "gate to source voltage"
+F20 "2.5mm" 0 2300 50 H I L CNN "height"
+F21 "1900pF @ 25V" 0 2400 50 H I L CNN "input capacitace at vds"
+F22 "Yes" 0 2500 50 H I L CNN "lead free"
+F23 "79f5270008093ab4" 0 2600 50 H I L CNN "library id"
+F24 "Infineon" 0 2700 50 H I L CNN "manufacturer"
+F25 "1.3V" 0 2800 50 H I L CNN "max forward diode voltage"
+F26 "+175°C" 0 2900 50 H I L CNN "max junction temp"
+F27 "Trans MOSFET N-CH 30V 50A 3-Pin(2+Tab) TO-252" 0 3000 50 H I L CNN "mouser description"
+F28 "1" 0 3100 50 H I L CNN "number of N channels"
+F29 "1" 0 3200 50 H I L CNN "number of channels"
+F30 "DPAK" 0 3300 50 H I L CNN "package"
+F31 "136W" 0 3400 50 H I L CNN "power dissipation"
+F32 "200A" 0 3500 50 H I L CNN "pulse drain current"
+F33 "50nC" 0 3600 50 H I L CNN "reverse recovery charge"
+F34 "40ns" 0 3700 50 H I L CNN "reverse recovery time"
+F35 "Yes" 0 3800 50 H I L CNN "rohs"
+F36 "75K/W" 0 3900 50 H I L CNN "rthja max"
+F37 "0mm" 0 4000 50 H I L CNN "standoff height"
+F38 "+175°C" 0 4100 50 H I L CNN "temperature range high"
+F39 "-55°C" 0 4200 50 H I L CNN "temperature range low"
+F40 "2V" 0 4300 50 H I L CNN "threshold vgs max"
+F41 "1.2V" 0 4400 50 H I L CNN "threshold vgs min"
+F42 "40ns" 0 4500 50 H I L CNN "turn off delay time"
+F43 "10ns" 0 4600 50 H I L CNN "turn on delay time"
+F44 "0.9V" 0 4700 50 H I L CNN "typ forward diode voltage"
+DRAW
+X gate 1 100 0 140 R 40 0 1 1 P 
+X source 3 400 -200 200 U 40 0 1 1 P 
+X drain 4 400 200 120 D 40 0 1 1 P 
+P 2 1 1 0 240 -100 240 100 N
+P 2 1 1 0 270 60 270 100 N
+P 2 1 1 0 270 -80 400 -80 N
+P 2 1 1 0 270 80 400 80 N
+P 2 1 1 0 300 0 400 0 N
+P 2 1 1 0 290 0 340 30 N
+P 2 1 1 0 290 0 340 -30 N
+P 2 1 1 0 340 30 340 -30 N
+P 2 1 1 0 330 10 330 -20 N
+P 2 1 1 0 270 -60 270 -100 N
+P 2 1 1 0 270 20 270 -20 N
+P 2 1 1 0 400 -80 470 -80 N
+P 2 1 1 0 470 -80 470 80 N
+P 2 1 1 0 470 80 400 80 N
+C 400 80 10 1 1 0 N
+C 400 -80 10 1 1 0 N
+P 2 1 1 0 470 20 450 -20 N
+P 2 1 1 0 450 -20 490 -20 N
+P 2 1 1 0 490 -20 470 20 N
+P 2 1 1 0 470 20 490 20 N
+P 2 1 1 0 470 20 450 20 N
+ENDDRAW
+ENDDEF
+#
+# End Library

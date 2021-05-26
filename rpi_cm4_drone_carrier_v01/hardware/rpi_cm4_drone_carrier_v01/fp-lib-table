@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/CM4IO/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "JST_SM06B")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/JST_SM06B")(options "")(descr ""))
+  (lib (name "Texas Instruments SN74LVC1G07DCKR")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/Texas Instruments SN74LVC1G07DCKR")(options "")(descr ""))
+  (lib (name "USB_C")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/USB_C/eec.pretty")(options "")(descr ""))
+  (lib (name "TPS62133")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/Bachelor/carrier_board/rpi_cm4_drone_carrier_v01/hardware/libraries/TPS62133/TPS62133.pretty")(options "")(descr ""))
+  (lib (name "MIC5019YFT-TR")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/KiCad/5.99/projects/cm4_cb_drone/rpi_cm4_drone_carrier_v01/hardware/libraries/MIC5019YFT-TR/MIC5019YFT-TR.pretty")(options "")(descr ""))
+  (lib (name "Trans_Infineon_IPD50N03S2L06ATMA1")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/KiCad/5.99/projects/cm4_cb_drone/rpi_cm4_drone_carrier_v01/hardware/libraries/Trans_Infineon_IPD50N03S2L06ATMA1/Trans_Infineon_IPD50N03S2L06ATMA1.pretty")(options "")(descr ""))
+  (lib (name "MOLEX_1054500101_usb_c")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/KiCad/5.99/projects/cm4_cb_drone/rpi_cm4_drone_carrier_v01/hardware/libraries/MOLEX_1054500101_usb_c/MOLEX_1054500101_usb_c.pretty")(options "")(descr ""))
+  (lib (name "PADs")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/KiCad/5.99/projects/cm4_cb_drone/rpi_cm4_drone_carrier_v01/hardware/libraries/PADs/PADs.pretty")(options "")(descr ""))
+  (lib (name "Molex_105017_microUSB")(type "KiCad")(uri "C:/Users/Martin/OneDrive - Universitetet i Agder/Documents/KiCad/5.99/projects/cm4_cb_drone/rpi_cm4_drone_carrier_v01/hardware/libraries/Molex_105017_microUSB")(options "")(descr ""))
+)
